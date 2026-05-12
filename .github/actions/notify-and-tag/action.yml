@@ -244,6 +244,7 @@ runs:
         echo "> Release notes disponibles en los **Artifacts** de este run."
       } >> "$GITHUB_STEP_SUMMARY"
 
+  # ── Step 7: Escribir resumen en GitHub ─────────
   - name: Crear resumen en GitHub
   shell: bash
   run: |
